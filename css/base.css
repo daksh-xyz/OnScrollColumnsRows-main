@@ -215,7 +215,6 @@ a:not(.card__image):focus-visible {
 }
 
 .frame {
-    margin-top: 1vh;
     z-index: 1000;
     position: relative;
     padding: 1.5rem;
@@ -242,7 +241,6 @@ a:not(.card__image):focus-visible {
 .frame__title {
     position: absolute;
     z-index: 1;
-    grid-area: title;
     font-size: clamp(1.5rem, 10vw, 5rem);
     margin: 0;
     font-weight: inherit;
