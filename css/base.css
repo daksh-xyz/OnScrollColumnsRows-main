@@ -215,6 +215,7 @@ a:not(.card__image):focus-visible {
 }
 
 .frame {
+    margin-top: 1vh;
     z-index: 1000;
     position: relative;
     padding: 1.5rem;
@@ -235,7 +236,7 @@ a:not(.card__image):focus-visible {
 .vid {
     position: absolute;
     width: 99vw;
-    height: 100vh;
+    height: 10vh;
     z-index: 0;
 }
 
