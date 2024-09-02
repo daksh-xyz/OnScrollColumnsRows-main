@@ -235,7 +235,7 @@ a:not(.card__image):focus-visible {
 .vid {
     position: absolute;
     width: 99vw;
-    height: 500px;
+    height: 100vh;
     z-index: 0;
 }
 
