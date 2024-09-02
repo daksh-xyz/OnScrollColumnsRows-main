@@ -232,9 +232,16 @@ a:not(.card__image):focus-visible {
     pointer-events: auto;
 }
 
+.vid {
+    position: absolute;
+    width: 99vw;
+    height: 500px;
+    z-index: 0;
+}
+
 .frame__title {
     position: absolute;
-    top: 0;
+    z-index: 1;
     grid-area: title;
     font-size: clamp(1.5rem, 10vw, 5rem);
     margin: 0;
