@@ -241,7 +241,7 @@ a:not(.card__image):focus-visible {
 .frame__title {
     position: absolute;
     z-index: 1;
-    top: 50%;
+    top: 45%;
     font-size: clamp(1.5rem, 10vw, 5rem);
     margin: 0;
     font-weight: inherit;
