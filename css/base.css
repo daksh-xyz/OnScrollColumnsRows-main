@@ -217,13 +217,10 @@ a:not(.card__image):focus-visible {
 .frame {
     z-index: 1000;
     position: relative;
-    padding: 1.5rem;
     display: grid;
     min-height: 400px;
     width: 100%;
     grid-template-columns: auto auto 1fr 1fr;
-    grid-template-areas: 'prev back ... sponsor''title title title title''demos demos demos demos';
-    grid-gap: 1rem;
     pointer-events: none;
     justify-items: start;
 }
