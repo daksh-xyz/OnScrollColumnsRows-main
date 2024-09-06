@@ -274,29 +274,29 @@ span.frame__demos-item:not(:first-child) {
     font-family: monospace;
 }
 
-html::-webkit-scrollbar {
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #959595 #000000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
     width: 10px;
 }
 
-html::-webkit-scrollbar-track {
-    background: #000;
-    border-radius: 10px;
+*::-webkit-scrollbar-track {
+    background: #000000;
 }
 
-html::-webkit-scrollbar-thumb {
-    background: #959595;
-    border-radius: 5px;
+*::-webkit-scrollbar-thumb {
+    background-color: #959595;
+    border-radius: 1px;
+    border: 0px none #ffffff;
 }
 
-html::-webkit-scrollbar-thumb:hover {
-    background: #959595;
-    width: 12px;
-    border-radius: 10px;
-}
-
-html::-webkit-scrollbar-thumb:active {
-    background: rgb(68, 68, 68);
-    border-radius: 10px;
+*::-webkit-scrollbar-button {
+    display: none;
 }
 
 @media screen and (min-width: 53em) {
