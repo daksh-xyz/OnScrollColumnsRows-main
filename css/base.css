@@ -279,6 +279,7 @@ span.frame__demos-item:not(:first-child) {
     background-image: url("❤️");
     background-repeat: round;
     background-size: contain;
+    max-width: 50vw;
 }
 
 /* Firefox */
