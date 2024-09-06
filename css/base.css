@@ -274,6 +274,11 @@ span.frame__demos-item:not(:first-child) {
     font-family: monospace;
     padding: 1.5rem;
     background-color: #ffe6e6;
+    color: #000;
+    border-radius: 7px;
+    background-image: "💋";
+    background-repeat: round;
+    background-size: contain;
 }
 
 /* Firefox */
