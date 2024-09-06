@@ -274,26 +274,30 @@ span.frame__demos-item:not(:first-child) {
     font-family: monospace;
 }
 
-/* For Chromium browsers */
-.styled-scrollbar::-webkit-scrollbar {
+html::-webkit-scrollbar {
     width: 10px;
-    /* width of the scrollbar */
-    height: 10px;
-    /* height of the scrollbar */
 }
 
-.styled-scrollbar::-webkit-scrollbar-thumb {
-    background: #999;
-    /* color of the scrollbar thumb */
-    border-radius: 5px;
-    /* roundness of the scrollbar thumb */
+html::-webkit-scrollbar-track {
+    background: #000;
+    border-radius: 10px;
 }
 
-.styled-scrollbar::-webkit-scrollbar-track {
-    background: #333;
-    /* color of the scrollbar track */
+html::-webkit-scrollbar-thumb {
+    background: #959595;
+    border-radius: 10px;
 }
 
+html::-webkit-scrollbar-thumb:hover {
+    background: #959595;
+    width: 12px;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:active {
+    background: rgb(68, 68, 68);
+    border-radius: 10px;
+}
 
 @media screen and (min-width: 53em) {
     .frame {
