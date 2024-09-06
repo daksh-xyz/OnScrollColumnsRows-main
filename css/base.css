@@ -272,6 +272,8 @@ span.frame__demos-item:not(:first-child) {
 
 .outro {
     font-family: monospace;
+    padding: 1.5rem;
+    background-color: #ffe6e6;
 }
 
 /* Firefox */
