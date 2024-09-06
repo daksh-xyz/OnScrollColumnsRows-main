@@ -271,6 +271,7 @@ span.frame__demos-item:not(:first-child) {
 }
 
 .outro {
+    margin: 200px 0;
     font-family: monospace;
     padding: 1.5rem;
     background-color: #ffe6e6;
