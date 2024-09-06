@@ -276,7 +276,7 @@ span.frame__demos-item:not(:first-child) {
     background-color: #ffe6e6;
     color: #000;
     border-radius: 7px;
-    background-image: "💋";
+    background-image: url("❤️");
     background-repeat: round;
     background-size: contain;
 }
